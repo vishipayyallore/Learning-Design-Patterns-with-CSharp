@@ -8,7 +8,7 @@ namespace Abstract.AnimalWorld.Product
         #region Methods
         public override string DescribeMe()
         {
-            return $" I am {GetType().Name} live in America. I am a {base.GetType().Name}";
+            return $" I am {GetType().Name}. I live in America. I am a kind of {AnimalType}.";
         }
         #endregion
     }

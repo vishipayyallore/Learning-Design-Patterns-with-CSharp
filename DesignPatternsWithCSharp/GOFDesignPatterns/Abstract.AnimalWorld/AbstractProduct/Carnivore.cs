@@ -3,6 +3,10 @@
 
     public abstract class Carnivore
     {
+        #region Properties.
+        public string AnimalType => GetType().Name;
+        #endregion
+
         #region Methods
         public string Eats(Herbivore herbivore)
         {

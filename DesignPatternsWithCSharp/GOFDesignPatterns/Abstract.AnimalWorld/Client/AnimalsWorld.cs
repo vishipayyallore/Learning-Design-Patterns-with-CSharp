@@ -1,4 +1,5 @@
-﻿using Abstract.AnimalWorld.AbstractFactory;
+﻿using System;
+using Abstract.AnimalWorld.AbstractFactory;
 using Abstract.AnimalWorld.AbstractProduct;
 
 namespace Abstract.AnimalWorld.Client
@@ -18,9 +19,18 @@ namespace Abstract.AnimalWorld.Client
         }
 
         #region Methods
-        public string RunFoodChain()
+
+        public AnimalsWorld ShowAnimals()
         {
-            return _carnivore.Eats(_herbivore);
+            Console.WriteLine(_herbivore.DescribeMe());
+            Console.WriteLine(_carnivore.DescribeMe());
+            return this;
+        }
+
+        public AnimalsWorld RunFoodChain()
+        {
+            Console.WriteLine(_carnivore.Eats(_herbivore));
+            return this;
         }
         #endregion
     }
