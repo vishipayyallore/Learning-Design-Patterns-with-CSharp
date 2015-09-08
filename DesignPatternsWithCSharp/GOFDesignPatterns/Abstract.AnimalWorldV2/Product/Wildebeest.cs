@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Abstract.AnimalWorldV2.AbstractProduct;
+﻿using Abstract.AnimalWorldV2.AbstractProduct;
 
 namespace Abstract.AnimalWorldV2.Product
 {
 
-    public class Wildebeest : IHerbivore
+    public sealed class Wildebeest : IHerbivore
     {
 
         #region Properties
@@ -24,7 +19,7 @@ namespace Abstract.AnimalWorldV2.Product
         string IHerbivore.Eats()
         {
             //TODO: replace this code with MongoDB
-            return $" I eat 2 Kgs of Green Grass.";
+            return " I eat 2 Kgs of Green Grass.";
         }
         #endregion
 

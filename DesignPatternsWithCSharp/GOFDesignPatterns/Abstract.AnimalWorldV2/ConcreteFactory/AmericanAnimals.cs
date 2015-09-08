@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Abstract.AnimalWorldV2.AbstractFactory;
+﻿using Abstract.AnimalWorldV2.AbstractFactory;
 using Abstract.AnimalWorldV2.AbstractProduct;
 using Abstract.AnimalWorldV2.Product;
 

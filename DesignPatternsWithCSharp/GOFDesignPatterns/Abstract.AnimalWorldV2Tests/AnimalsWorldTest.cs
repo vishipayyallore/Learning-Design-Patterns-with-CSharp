@@ -1,8 +1,5 @@
-﻿using System;
-using Abstract.AnimalWorldV2.AbstractProduct;
-using Abstract.AnimalWorldV2.Client;
+﻿using Abstract.AnimalWorldV2.Client;
 using Abstract.AnimalWorldV2.ConcreteFactory;
-using Abstract.AnimalWorldV2.Product;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Abstract.AnimalWorldV2Tests

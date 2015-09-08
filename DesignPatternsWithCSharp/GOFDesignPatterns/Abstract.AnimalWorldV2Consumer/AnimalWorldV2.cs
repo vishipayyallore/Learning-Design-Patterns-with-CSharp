@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Abstract.AnimalWorldV2.AbstractFactory;
 using Abstract.AnimalWorldV2.Client;
 using Abstract.AnimalWorldV2.ConcreteFactory;
 
@@ -11,7 +6,7 @@ namespace Abstract.AnimalWorldV2Consumer
 {
     class AnimalWorldV2
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             try

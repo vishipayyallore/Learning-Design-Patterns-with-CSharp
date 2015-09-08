@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Abstract.AnimalWorldV2.AbstractProduct;
+﻿using Abstract.AnimalWorldV2.AbstractProduct;
 
 namespace Abstract.AnimalWorldV2.Product
 {
-    public class Wolf : ICarnivore
+    public sealed class Wolf : ICarnivore
     {
         #region Properties
         public string AnimalType => GetType().GetInterface("ICarnivore", false).Name;
