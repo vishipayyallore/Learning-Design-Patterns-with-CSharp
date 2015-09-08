@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GOFDesignPatterns", "GOFDesignPatterns", "{BC2BA767-D1A0-43AC-8C46-38CD2F929157}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InternalDocumentation", "InternalDocumentation", "{D19DF208-C2A0-4F41-960E-8D4D6CA51183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.AnimalWorld", "GOFDesignPatterns\Abstract.AnimalWorld\Abstract.AnimalWorld.csproj", "{9AEB4D4C-47A0-470B-B018-7EC7AF48837D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.AnimalWorldConsumer", "GOFDesignPatterns\Abstract.AnimalWorldConsumer\Abstract.AnimalWorldConsumer.csproj", "{0D9D735B-912D-44CB-AC04-D16B119AA3D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AEB4D4C-47A0-470B-B018-7EC7AF48837D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEB4D4C-47A0-470B-B018-7EC7AF48837D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEB4D4C-47A0-470B-B018-7EC7AF48837D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEB4D4C-47A0-470B-B018-7EC7AF48837D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9D735B-912D-44CB-AC04-D16B119AA3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9D735B-912D-44CB-AC04-D16B119AA3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9D735B-912D-44CB-AC04-D16B119AA3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9D735B-912D-44CB-AC04-D16B119AA3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D19DF208-C2A0-4F41-960E-8D4D6CA51183} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
+		{9AEB4D4C-47A0-470B-B018-7EC7AF48837D} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
+		{0D9D735B-912D-44CB-AC04-D16B119AA3D9} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
+	EndGlobalSection
+EndGlobal

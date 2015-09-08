@@ -5,7 +5,7 @@
     {
         #region Properties.
         public string AnimalType => GetType().Name;
-        #endregion
+        #endregion 
 
         #region Abstract Methods
         public abstract string DescribeMe();
