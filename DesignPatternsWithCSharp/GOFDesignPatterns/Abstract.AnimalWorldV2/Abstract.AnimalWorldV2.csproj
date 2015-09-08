@@ -40,14 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractProduct\IAnimal.cs" />
+    <Compile Include="AbstractProduct\ICarnivore.cs" />
+    <Compile Include="AbstractProduct\IHerbivore.cs" />
+    <Compile Include="Product\Wildebeest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AbstractFactory\" />
-    <Folder Include="AbstractProduct\" />
     <Folder Include="Client\" />
     <Folder Include="ConcreteFactory\" />
-    <Folder Include="Product\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

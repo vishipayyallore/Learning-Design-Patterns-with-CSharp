@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.AnimalWorldConsume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.AnimalWorldV2", "GOFDesignPatterns\Abstract.AnimalWorldV2\Abstract.AnimalWorldV2.csproj", "{5B34812C-35D3-419D-8CB7-806338271575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.AnimalWorldV2Tests", "GOFDesignPatterns\Abstract.AnimalWorldV2Tests\Abstract.AnimalWorldV2Tests.csproj", "{8D571AA8-C379-4D42-8348-36F265031298}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{5B34812C-35D3-419D-8CB7-806338271575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B34812C-35D3-419D-8CB7-806338271575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B34812C-35D3-419D-8CB7-806338271575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D571AA8-C379-4D42-8348-36F265031298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D571AA8-C379-4D42-8348-36F265031298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D571AA8-C379-4D42-8348-36F265031298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D571AA8-C379-4D42-8348-36F265031298}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +46,6 @@ Global
 		{9AEB4D4C-47A0-470B-B018-7EC7AF48837D} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 		{0D9D735B-912D-44CB-AC04-D16B119AA3D9} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 		{5B34812C-35D3-419D-8CB7-806338271575} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
+		{8D571AA8-C379-4D42-8348-36F265031298} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 	EndGlobalSection
 EndGlobal
