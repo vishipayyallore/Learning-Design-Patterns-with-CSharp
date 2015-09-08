@@ -7,27 +7,23 @@ using Abstract.AnimalWorldV2.AbstractProduct;
 
 namespace Abstract.AnimalWorldV2.Product
 {
-
-    public class Wildebeest : IHerbivore
+    public class Lion : ICarnivore
     {
-
         #region Properties
-        public string AnimalType => GetType().GetInterface("IHerbivore", false).Name;
+        public string AnimalType => GetType().GetInterface("ICarnivore", false).Name;
         #endregion
 
-        #region Methods.
+        #region
         public string DescribeAnimal()
         {
             return $" I am {GetType().Name}. I live in Africa. I am a kind of {AnimalType}.";
         }
 
-        string IHerbivore.Eats()
+        string ICarnivore.Eats(IHerbivore herbivore)
         {
             //TODO: replace this code with MongoDB
-            return $" I eat 2 Kgs of Green Grass.";
+            return $"{GetType().Name} eats {herbivore.GetType().Name}";
         }
         #endregion
-
     }
-
 }
