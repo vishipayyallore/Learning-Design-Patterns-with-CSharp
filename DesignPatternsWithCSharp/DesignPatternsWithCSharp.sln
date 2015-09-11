@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.AnimalWorldV2Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.AnimalWorldV2Consumer", "GOFDesignPatterns\Abstract.AnimalWorldV2Consumer\Abstract.AnimalWorldV2Consumer.csproj", "{7FC03CA7-1CA2-4FC6-906F-050F295C9D4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.BuildVehicles", "GOFDesignPatterns\Builder.BuildVehicles\Builder.BuildVehicles.csproj", "{0AB47CCC-9AE3-48A4-BF9B-391660077778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.BuildVehiclesTests", "GOFDesignPatterns\Builder.BuildVehiclesTests\Builder.BuildVehiclesTests.csproj", "{18C6EFEA-4638-4381-954E-5C0FC7104E75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{7FC03CA7-1CA2-4FC6-906F-050F295C9D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC03CA7-1CA2-4FC6-906F-050F295C9D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC03CA7-1CA2-4FC6-906F-050F295C9D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB47CCC-9AE3-48A4-BF9B-391660077778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB47CCC-9AE3-48A4-BF9B-391660077778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB47CCC-9AE3-48A4-BF9B-391660077778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB47CCC-9AE3-48A4-BF9B-391660077778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C6EFEA-4638-4381-954E-5C0FC7104E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C6EFEA-4638-4381-954E-5C0FC7104E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C6EFEA-4638-4381-954E-5C0FC7104E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C6EFEA-4638-4381-954E-5C0FC7104E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +66,7 @@ Global
 		{5B34812C-35D3-419D-8CB7-806338271575} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 		{8D571AA8-C379-4D42-8348-36F265031298} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 		{7FC03CA7-1CA2-4FC6-906F-050F295C9D4A} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
+		{0AB47CCC-9AE3-48A4-BF9B-391660077778} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
+		{18C6EFEA-4638-4381-954E-5C0FC7104E75} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 	EndGlobalSection
 EndGlobal
