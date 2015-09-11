@@ -9,11 +9,11 @@ namespace Builder.BuildVehicles.Product
     public class Vehicle
     {
         #region Variables.
-        private readonly VehicleTypes _vehicleType;
+        private readonly string _vehicleType;
         private readonly Dictionary<string, Part> _parts =  new Dictionary<string, Part>();
         #endregion
 
-        public Vehicle(VehicleTypes vehicleType)
+        public Vehicle(string vehicleType)
         {
             _vehicleType = vehicleType;
         }
@@ -31,7 +31,10 @@ namespace Builder.BuildVehicles.Product
         {
             Console.WriteLine("\n---------------------------");
             Console.WriteLine("Vehicle Type: {0}", _vehicleType);
-            Console.WriteLine(" Frame  : {0}", _parts[PartNames.Frame]);
+            Console.WriteLine(" Frame  : {0}", _parts[PartNames.Frame].Name);
+            Console.WriteLine(" Enginee  : {0}", (_parts[PartNames.Engine] as Engine)?.Speed);
+            Console.WriteLine(" Doors  : {0}", (_parts[PartNames.Doors] as Doors)?.NumberOfItems);
+            Console.WriteLine(" Wheels  : {0}", (_parts[PartNames.Wheels] as Wheels)?.NumberOfItems);
         }
         #endregion
     }
