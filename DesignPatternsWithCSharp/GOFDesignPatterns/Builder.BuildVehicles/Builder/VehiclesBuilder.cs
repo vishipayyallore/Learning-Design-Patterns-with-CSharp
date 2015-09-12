@@ -10,6 +10,14 @@ namespace Builder.BuildVehicles.Builder
         #endregion
 
         #region Methods
+        public VehiclesBuilder DisplayVehicle()
+        {
+            CurrentVehicle.DisplayVehicle();
+            return this;
+        }
+        #endregion
+
+        #region Abstract Methods
         public abstract VehiclesBuilder BuildFrame();
         public abstract VehiclesBuilder BuildEngine();
         public abstract VehiclesBuilder BuildWheels();
