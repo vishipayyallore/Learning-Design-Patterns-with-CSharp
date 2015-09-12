@@ -53,6 +53,7 @@
     <Compile Include="CarBuilderTests.cs" />
     <Compile Include="ScooterBuilderTests.cs" />
     <Compile Include="MotorCycleBuilderTests.cs" />
+    <Compile Include="ShopTests.cs" />
     <Compile Include="VehicleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
