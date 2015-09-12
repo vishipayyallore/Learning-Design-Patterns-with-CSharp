@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Builder.BuildVehicles.ConcreteBuilder;
 using Builder.BuildVehicles.Director;
 
@@ -11,7 +7,7 @@ namespace Builder.BuildVehiclesConsumer
     public class BuildVehicles
     {
 
-        static void Main(string[] args)
+        static void Main()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             try

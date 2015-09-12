@@ -1,8 +1,5 @@
 ﻿using Builder.BuildVehicles.ConcreteBuilder;
 using Builder.BuildVehicles.Director;
-using Builder.BuildVehicles.Infrastructure;
-using Builder.BuildVehicles.Product;
-using Builder.BuildVehicles.VehicleParts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Builder.BuildVehiclesTests
