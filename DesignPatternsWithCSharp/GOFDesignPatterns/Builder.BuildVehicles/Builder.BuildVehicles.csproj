@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\VehiclesBuilder.cs" />
+    <Compile Include="ConcreteBuilder\MotorCycleBuilder.cs" />
     <Compile Include="Infrastructure\PartNames.cs" />
     <Compile Include="VehicleParts\Doors.cs" />
     <Compile Include="VehicleParts\Engine.cs" />
@@ -51,8 +53,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Builder\" />
-    <Folder Include="ConcreteBuilder\" />
     <Folder Include="Director\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
