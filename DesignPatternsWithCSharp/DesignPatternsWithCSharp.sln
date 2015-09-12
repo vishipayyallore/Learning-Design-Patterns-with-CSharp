@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.BuildVehicles", "GO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.BuildVehiclesTests", "GOFDesignPatterns\Builder.BuildVehiclesTests\Builder.BuildVehiclesTests.csproj", "{18C6EFEA-4638-4381-954E-5C0FC7104E75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.BuildVehiclesConsumer", "GOFDesignPatterns\Builder.BuildVehiclesConsumer\Builder.BuildVehiclesConsumer.csproj", "{F25E5202-247B-4E7F-898A-90A90CA5BDF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{18C6EFEA-4638-4381-954E-5C0FC7104E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18C6EFEA-4638-4381-954E-5C0FC7104E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18C6EFEA-4638-4381-954E-5C0FC7104E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25E5202-247B-4E7F-898A-90A90CA5BDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25E5202-247B-4E7F-898A-90A90CA5BDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25E5202-247B-4E7F-898A-90A90CA5BDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25E5202-247B-4E7F-898A-90A90CA5BDF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,5 +74,6 @@ Global
 		{7FC03CA7-1CA2-4FC6-906F-050F295C9D4A} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 		{0AB47CCC-9AE3-48A4-BF9B-391660077778} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 		{18C6EFEA-4638-4381-954E-5C0FC7104E75} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
+		{F25E5202-247B-4E7F-898A-90A90CA5BDF1} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 	EndGlobalSection
 EndGlobal

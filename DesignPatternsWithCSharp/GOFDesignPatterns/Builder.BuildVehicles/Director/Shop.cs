@@ -6,7 +6,7 @@ namespace Builder.BuildVehicles.Director
     public class Shop
     {
         #region Methods.
-        public void Construct(VehiclesBuilder vehiclesBuilder)
+        public Shop Construct(VehiclesBuilder vehiclesBuilder)
         {
             vehiclesBuilder
                 .BuildFrame()
@@ -14,6 +14,7 @@ namespace Builder.BuildVehicles.Director
                 .BuildWheels()
                 .BuildDoors()
                 .DisplayVehicle();
+            return this;
         }
         #endregion
     }
