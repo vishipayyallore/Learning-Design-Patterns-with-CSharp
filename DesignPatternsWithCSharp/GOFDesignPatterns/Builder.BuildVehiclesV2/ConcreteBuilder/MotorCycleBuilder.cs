@@ -1,5 +1,4 @@
-﻿using System;
-using Builder.BuildVehiclesV2.Builder;
+﻿using Builder.BuildVehiclesV2.Builder;
 using Builder.BuildVehiclesV2.Infrastructure;
 using Builder.BuildVehiclesV2.VehicleParts;
 

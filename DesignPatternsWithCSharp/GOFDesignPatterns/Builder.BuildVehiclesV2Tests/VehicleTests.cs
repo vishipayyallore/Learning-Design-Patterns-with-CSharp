@@ -1,5 +1,4 @@
-﻿using System;
-using Builder.BuildVehiclesV2.Infrastructure;
+﻿using Builder.BuildVehiclesV2.Infrastructure;
 using Builder.BuildVehiclesV2.Product;
 using Builder.BuildVehiclesV2.VehicleParts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
