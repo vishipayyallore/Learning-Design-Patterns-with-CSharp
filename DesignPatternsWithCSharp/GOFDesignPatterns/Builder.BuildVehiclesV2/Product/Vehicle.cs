@@ -32,10 +32,11 @@ namespace Builder.BuildVehiclesV2.Product
         {
             Console.WriteLine("\n---------------------------");
             Console.WriteLine("Vehicle Type: {0}", _vehicleType);
-            Console.WriteLine(" Frame  : {0}", _parts[PartType.Frame].Name);
-            Console.WriteLine(" Enginee  : {0}", (_parts[PartType.Engine] as Engine)?.Speed);
-            Console.WriteLine(" Doors  : {0}", (_parts[PartType.Door] as Doors)?.NumberOfItems);
-            Console.WriteLine(" Wheels  : {0}", (_parts[PartType.Wheel] as Wheels)?.NumberOfItems);
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("  Frame  : {0}", _parts[PartType.Frame].Name);
+            Console.WriteLine("  Enginee  : {0}", (_parts[PartType.Engine] as Engine)?.Speed);
+            Console.WriteLine("  Doors  : {0}", (_parts[PartType.Door] as Doors)?.NumberOfItems);
+            Console.WriteLine("  Wheels  : {0}", (_parts[PartType.Wheel] as Wheels)?.NumberOfItems);
         }
         #endregion
 

@@ -1,4 +1,5 @@
-﻿using Builder.BuildVehiclesV2.Infrastructure;
+﻿using System;
+using Builder.BuildVehiclesV2.Infrastructure;
 using Builder.BuildVehiclesV2.Product;
 
 namespace Builder.BuildVehiclesV2.Builder
@@ -20,6 +21,11 @@ namespace Builder.BuildVehiclesV2.Builder
         {
             CurrentVehicle.DisplayVehicle();
             return this;
+        }
+
+        protected static void DisplayLog(string message)
+        {
+            Console.WriteLine(message);
         }
         #endregion
 

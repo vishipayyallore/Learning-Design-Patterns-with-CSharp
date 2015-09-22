@@ -15,12 +15,12 @@ namespace Builder.BuildVehiclesV2Tests
         //    shop.Construct(new ScooterBuilder());
         //}
 
-        //[TestMethod]
-        //public void When_MotorCycle_IsBuild()
-        //{
-        //    var shop = new Shop();
-        //    shop.Construct(new MotorCycleBuilder());
-        //}
+        [TestMethod]
+        public void When_MotorCycle_IsBuild()
+        {
+            var shop = new Shop();
+            shop.Construct(new MotorCycleBuilder());
+        }
 
         [TestMethod]
         public void When_Car1_IsBuild()

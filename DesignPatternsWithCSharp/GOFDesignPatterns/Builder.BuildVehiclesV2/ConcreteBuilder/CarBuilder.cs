@@ -12,13 +12,6 @@ namespace Builder.BuildVehiclesV2.ConcreteBuilder
         {
         }
 
-        #region Private Methods.
-        private static void DisplayLog(string message)
-        {
-            Console.WriteLine(message);  
-        }
-        #endregion
-
         #region Methods.
         public override VehiclesBuilder BuildFrame()
         {
@@ -30,7 +23,7 @@ namespace Builder.BuildVehiclesV2.ConcreteBuilder
         public override VehiclesBuilder BuildEngine()
         {
             DisplayLog("Building Car\'s Engine");
-            CurrentVehicle[PartType.Engine] = new Engine { Id = "C101", Name = "Car Enginee", Speed = "2500 CC" };
+            CurrentVehicle[PartType.Engine] = new Engine { Id = "C101", Name = "Car Engine", Speed = "2500 CC" };
             return this;
         }
 
