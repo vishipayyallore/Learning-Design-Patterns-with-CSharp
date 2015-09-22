@@ -39,7 +39,7 @@ namespace Builder.BuildVehiclesTests
         [TestMethod]
         public void When_Car1_IsBuild()
         {
-            var car = new Vehicle(VehicleTypes.MotorCycle)
+            var car = new Vehicle(VehicleTypes.Car)
             {
                 [PartNames.Frame] = new Frame { Id = "C100", Name = "Car Frame" },
                 [PartNames.Engine] = new Engine { Id = "C101", Name = "Car Enginee", Speed = "2500 CC" },
@@ -52,7 +52,7 @@ namespace Builder.BuildVehiclesTests
         [TestMethod]
         public void When_Car2_IsBuild()
         {
-            var car = new Vehicle(VehicleTypes.MotorCycle)
+            var car = new Vehicle(VehicleTypes.Car)
             {
                 [PartNames.Frame] = new Frame { Id = "C100", Name = "Car Frame" },
                 [PartNames.Engine] = new Engine { Id = "C101", Name = "Car Enginee", Speed = "1500 CC" },
