@@ -8,12 +8,12 @@ namespace Builder.BuildVehiclesV2Tests
     [TestClass]
     public class ShopTests
     {
-        //[TestMethod]
-        //public void When_Scooter_IsBuild()
-        //{
-        //    var shop = new Shop();
-        //    shop.Construct(new ScooterBuilder());
-        //}
+        [TestMethod]
+        public void When_Scooter_IsBuild()
+        {
+            var shop = new Shop();
+            shop.Construct(new ScooterBuilder());
+        }
 
         [TestMethod]
         public void When_MotorCycle_IsBuild()

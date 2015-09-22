@@ -43,6 +43,7 @@
     <Compile Include="Builder\VehiclesBuilder.cs" />
     <Compile Include="ConcreteBuilder\CarBuilder.cs" />
     <Compile Include="ConcreteBuilder\MotorCycleBuilder.cs" />
+    <Compile Include="ConcreteBuilder\ScooterBuilder.cs" />
     <Compile Include="Director\Shop.cs" />
     <Compile Include="Infrastructure\PartType.cs" />
     <Compile Include="Infrastructure\VehicleType.cs" />
