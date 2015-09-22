@@ -29,13 +29,13 @@ namespace Builder.BuildVehicles.ConcreteBuilder
 
         public override VehiclesBuilder BuildWheels()
         {
-            CurrentVehicle[PartNames.Wheels] = new Wheels { Id = "C103", Name = "MotorCycle Wheels", NumberOfItems = 4 };
+            CurrentVehicle[PartNames.Wheels] = new Wheels { Id = "C103", Name = "Car Wheels", NumberOfItems = 4 };
             return this;
         }
 
         public override VehiclesBuilder BuildDoors()
         {
-            CurrentVehicle[PartNames.Doors] = new Doors { Id = "C102", Name = "MotorCycle Door", NumberOfItems = 2 };
+            CurrentVehicle[PartNames.Doors] = new Doors { Id = "C102", Name = "Car Door", NumberOfItems = 2 };
             return this;
         }
         #endregion
