@@ -33,6 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDbDataStore", "MongoDb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.DataStore.Utilities", "MongoDbDataStore\MongoDb.DataStore.Utilities\MongoDb.DataStore.Utilities.csproj", "{ACDCA0C3-1E71-483B-A0C4-6C93F74DECF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.DataStore", "MongoDbDataStore\MongoDb.DataStore\MongoDb.DataStore.csproj", "{76F765B4-0A5F-4A13-AB3D-B63963503F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.BuildVehicles.DataStore", "MongoDb.BuildVehicles.DataStore\MongoDb.BuildVehicles.DataStore.csproj", "{7E45A140-DD72-4BD6-8F27-43E654F2620B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{ACDCA0C3-1E71-483B-A0C4-6C93F74DECF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACDCA0C3-1E71-483B-A0C4-6C93F74DECF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACDCA0C3-1E71-483B-A0C4-6C93F74DECF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F765B4-0A5F-4A13-AB3D-B63963503F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F765B4-0A5F-4A13-AB3D-B63963503F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F765B4-0A5F-4A13-AB3D-B63963503F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F765B4-0A5F-4A13-AB3D-B63963503F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E45A140-DD72-4BD6-8F27-43E654F2620B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E45A140-DD72-4BD6-8F27-43E654F2620B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E45A140-DD72-4BD6-8F27-43E654F2620B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E45A140-DD72-4BD6-8F27-43E654F2620B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,5 +117,7 @@ Global
 		{30B4F967-172E-4FDA-AE2B-41314C916A12} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 		{AAF3C24A-414A-46C3-BE18-4B49DCA48658} = {BC2BA767-D1A0-43AC-8C46-38CD2F929157}
 		{ACDCA0C3-1E71-483B-A0C4-6C93F74DECF6} = {845DE14E-913A-4BA8-9550-CB7EB19CDC6C}
+		{76F765B4-0A5F-4A13-AB3D-B63963503F89} = {845DE14E-913A-4BA8-9550-CB7EB19CDC6C}
+		{7E45A140-DD72-4BD6-8F27-43E654F2620B} = {845DE14E-913A-4BA8-9550-CB7EB19CDC6C}
 	EndGlobalSection
 EndGlobal
