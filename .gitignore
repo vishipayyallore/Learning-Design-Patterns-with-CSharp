@@ -37,3 +37,13 @@
 /DesignPatternsWithCSharp/packages
 /DesignPatternsWithCSharp/MongoDbDataStore/MongoDb.DataStoreTests/obj/Debug
 /DesignPatternsWithCSharp/MongoDbDataStore/MongoDb.DataStoreTests/bin/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.BuildVehicles.DataStore/obj/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.BuildVehicles.DataStore/bin/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataStore/obj/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataStore/bin/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataStore.Tests/obj/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataStore.Tests/bin/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataStore.Utilities/obj/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataStore.Utilities/bin/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataStore.Utilities.Tests/obj/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataStore.Utilities.Tests/bin/Debug

@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95C3EFA6-048A-43E6-A5DD-01E63B2E6F57}</ProjectGuid>
+    <ProjectGuid>{263B682C-3269-4AC5-893B-EBD36ABA9B43}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MongoData.DataStore.Tests</RootNamespace>
-    <AssemblyName>MongoData.DataStore.Tests</AssemblyName>
+    <RootNamespace>MongoData.DataStore.Utilities.Tests</RootNamespace>
+    <AssemblyName>MongoData.DataStore.Utilities.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,17 +50,17 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="MongoDataStoreTests.cs" />
+    <Compile Include="ConfigurationHelperTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MongoDb.DataStore\MongoData.DataStore.csproj">
-      <Project>{76F765B4-0A5F-4A13-AB3D-B63963503F89}</Project>
-      <Name>MongoData.DataStore</Name>
-    </ProjectReference>
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\MongoData.DataStore.Utilities\MongoData.DataStore.Utilities.csproj">
+      <Project>{ACDCA0C3-1E71-483B-A0C4-6C93F74DECF6}</Project>
+      <Name>MongoData.DataStore.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
