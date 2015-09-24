@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.DataStore", "MongoD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.BuildVehicles.DataStore", "MongoDbDataStore\MongoDb.BuildVehicles.DataStore\MongoDb.BuildVehicles.DataStore.csproj", "{7E45A140-DD72-4BD6-8F27-43E654F2620B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.DataStore.UtilitiesTests", "MongoDbDataStore\MongoDb.DataStore.UtilitiesTests\MongoDb.DataStore.UtilitiesTests.csproj", "{263B682C-3269-4AC5-893B-EBD36ABA9B43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{7E45A140-DD72-4BD6-8F27-43E654F2620B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E45A140-DD72-4BD6-8F27-43E654F2620B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E45A140-DD72-4BD6-8F27-43E654F2620B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263B682C-3269-4AC5-893B-EBD36ABA9B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263B682C-3269-4AC5-893B-EBD36ABA9B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263B682C-3269-4AC5-893B-EBD36ABA9B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263B682C-3269-4AC5-893B-EBD36ABA9B43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,5 +125,6 @@ Global
 		{ACDCA0C3-1E71-483B-A0C4-6C93F74DECF6} = {845DE14E-913A-4BA8-9550-CB7EB19CDC6C}
 		{76F765B4-0A5F-4A13-AB3D-B63963503F89} = {845DE14E-913A-4BA8-9550-CB7EB19CDC6C}
 		{7E45A140-DD72-4BD6-8F27-43E654F2620B} = {845DE14E-913A-4BA8-9550-CB7EB19CDC6C}
+		{263B682C-3269-4AC5-893B-EBD36ABA9B43} = {845DE14E-913A-4BA8-9550-CB7EB19CDC6C}
 	EndGlobalSection
 EndGlobal

@@ -1,22 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MongoDb.DataStore.Utilities;
+﻿using MongoDb.DataStore.Utilities;
 using MongoDB.Driver;
 
 namespace MongoDb.DataStore
 {
     public class MongoDataStore
     {
-
-
+        #region Variables.
         private static readonly MongoClient DataStoreClient;
+        #endregion
 
-        private MongoDataStore()
-        {
-        }
+        private MongoDataStore() { }
 
         static MongoDataStore()
         {
@@ -24,10 +17,11 @@ namespace MongoDb.DataStore
             DataStoreClient = new MongoClient(mongoDbConnectionString);
         }
 
+        #region Properties
         public static MongoDataStore DataStore { get; } = new MongoDataStore();
 
         public MongoClient MongoDataStoreClient => DataStoreClient;
-
+        #endregion
     }
 
 }
