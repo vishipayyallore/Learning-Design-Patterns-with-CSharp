@@ -60,7 +60,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MongoDb.DataStore.Utilities\MongoDb.DataStore.Utilities.csproj">
+      <Project>{acdca0c3-1e71-483b-a0c4-6c93f74decf6}</Project>
+      <Name>MongoDb.DataStore.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

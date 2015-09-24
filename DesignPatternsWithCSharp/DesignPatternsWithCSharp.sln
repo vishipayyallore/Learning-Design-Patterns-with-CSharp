@@ -35,7 +35,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.DataStore.Utilities
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.DataStore", "MongoDbDataStore\MongoDb.DataStore\MongoDb.DataStore.csproj", "{76F765B4-0A5F-4A13-AB3D-B63963503F89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.BuildVehicles.DataStore", "MongoDb.BuildVehicles.DataStore\MongoDb.BuildVehicles.DataStore.csproj", "{7E45A140-DD72-4BD6-8F27-43E654F2620B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.BuildVehicles.DataStore", "MongoDbDataStore\MongoDb.BuildVehicles.DataStore\MongoDb.BuildVehicles.DataStore.csproj", "{7E45A140-DD72-4BD6-8F27-43E654F2620B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
