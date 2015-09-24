@@ -1,7 +1,7 @@
-﻿using MongoDb.DataStore.Utilities;
+﻿using MongoData.DataStore.Utilities;
 using MongoDB.Driver;
 
-namespace MongoDb.BuildVehicles.DataStore
+namespace MongoData.BuildVehicles.DataStore
 {
 
     public class BuildVehiclesContext

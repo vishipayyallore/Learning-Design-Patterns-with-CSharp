@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace MongoDb.DataStore.Utilities
+namespace MongoData.DataStore.Utilities
 {
     public class ConfigurationHelper
     {

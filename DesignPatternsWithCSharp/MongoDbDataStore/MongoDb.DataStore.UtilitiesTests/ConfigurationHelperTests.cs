@@ -1,8 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MongoDb.DataStore.Utilities;
 
-namespace MongoDb.DataStore.UtilitiesTests
+namespace MongoData.DataStore.Utilities.Tests
 {
 
     [TestClass]
