@@ -64,7 +64,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MongoDb.DataStore.Utilities\MongoData.DataStore.Utilities.csproj">
+    <ProjectReference Include="..\MongoData.DataStore.Utilities\MongoData.DataStore.Utilities.csproj">
       <Project>{ACDCA0C3-1E71-483B-A0C4-6C93F74DECF6}</Project>
       <Name>MongoData.DataStore.Utilities</Name>
     </ProjectReference>
