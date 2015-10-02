@@ -49,3 +49,9 @@
 /DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataStore.Utilities.Tests/bin/Debug
 /DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataRepositories/obj/Debug
 /DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DataRepositories/bin/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DesignPattern.DataModels/obj/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DesignPattern.DataModels/bin/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DesignPattern.IDataModels/obj/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.DesignPattern.IDataModels/bin/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.IDataRepositories/obj/Debug
+/DesignPatternsWithCSharp/MongoDbDataStore/MongoData.IDataRepositories/bin/Debug

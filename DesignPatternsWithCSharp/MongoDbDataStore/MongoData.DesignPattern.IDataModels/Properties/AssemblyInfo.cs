@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MongoData.IDataRepositories")]
+[assembly: AssemblyTitle("MongoData.DesignPattern.IDataModels")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MongoData.IDataRepositories")]
+[assembly: AssemblyProduct("MongoData.DesignPattern.IDataModels")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("74317ee0-39f2-4aae-9198-5a984c43feb0")]
+[assembly: Guid("c13802b5-378d-4b35-b1a5-fafb4bba5d18")]
 
 // Version information for an assembly consists of the following four values:
 //

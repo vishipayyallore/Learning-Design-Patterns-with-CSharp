@@ -1,12 +1,16 @@
 using System.Collections.Generic;
+using MongoData.DesignPattern.IDataModels;
 
 namespace MongoData.IDataRepositories
 {
 
     public interface IRepository<T> where T : IEntity
     {
-        #region Methods
+        #region Properties
         IEnumerable<T> List { get; }
+        #endregion
+
+        #region Methods
         void Add(T entity);
         void Delete(T entity);
         void Update(T entity);

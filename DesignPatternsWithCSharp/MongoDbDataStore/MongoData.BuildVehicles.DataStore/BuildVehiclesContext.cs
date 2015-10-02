@@ -1,4 +1,4 @@
-﻿using MongoData.DataStore.Utilities;
+﻿using MongoData.DataStore;
 using MongoDB.Driver;
 
 namespace MongoData.BuildVehicles.DataStore
@@ -8,16 +8,17 @@ namespace MongoData.BuildVehicles.DataStore
     {
 
         private static IMongoDatabase _mongoDatabase;
+        private static readonly MongoDataStore MongoDataStoreInstance = MongoDataStore.DataStoreInstance;
 
         public BuildVehiclesContext()
         {
-            var mongoDbConnectionString = ConfigurationHelper.GetConfigurationValue("MongoDbConnectionString");
-            var mongoDbDatabaseName = ConfigurationHelper.GetConfigurationValue("MongoDbDatabaseName");
-
-            var mongoClient = new MongoClient(mongoDbConnectionString);
-            _mongoDatabase = mongoClient.GetDatabase(mongoDbDatabaseName);
+            _mongoDatabase = MongoDataStoreInstance.DatabaseInstance;
         }
 
+        //public IMongoCollection<ClientFile> ClientFiles
+        //{
+        //    get { return _mongoDatabase.GetCollection<ClientFile>("clients"); }
+        //}
     }
 
 }
