@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoData.DataStore.Utiliti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoData.DataStore.Utilities.Tests", "MongoDbDataStore\MongoData.DataStore.Utilities.Tests\MongoData.DataStore.Utilities.Tests.csproj", "{263B682C-3269-4AC5-893B-EBD36ABA9B43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoData.IDataRepositories", "MongoDbDataStore\MongoData.DataRepositories\MongoData.IDataRepositories.csproj", "{74317EE0-39F2-4AAE-9198-5A984C43FEB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoData.IDataRepositories", "MongoDbDataStore\MongoData.IDataRepositories\MongoData.IDataRepositories.csproj", "{74317EE0-39F2-4AAE-9198-5A984C43FEB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
