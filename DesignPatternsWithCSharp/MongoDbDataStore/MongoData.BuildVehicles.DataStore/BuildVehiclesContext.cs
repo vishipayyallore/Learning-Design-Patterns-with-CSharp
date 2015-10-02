@@ -1,4 +1,5 @@
 ﻿using MongoData.DataStore;
+using MongoData.DesignPattern.DataModels;
 using MongoDB.Driver;
 
 namespace MongoData.BuildVehicles.DataStore
@@ -15,10 +16,7 @@ namespace MongoData.BuildVehicles.DataStore
             _mongoDatabase = MongoDataStoreInstance.DatabaseInstance;
         }
 
-        //public IMongoCollection<ClientFile> ClientFiles
-        //{
-        //    get { return _mongoDatabase.GetCollection<ClientFile>("clients"); }
-        //}
+        public IMongoCollection<Door> Doors => _mongoDatabase.GetCollection<Door>("doors");
     }
 
 }

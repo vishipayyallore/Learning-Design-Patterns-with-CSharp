@@ -72,6 +72,14 @@
       <Project>{76F765B4-0A5F-4A13-AB3D-B63963503F89}</Project>
       <Name>MongoData.DataStore</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MongoData.DesignPattern.DataModels\MongoData.DesignPattern.DataModels.csproj">
+      <Project>{96674F0D-55EF-4B73-B191-F86DA93E3555}</Project>
+      <Name>MongoData.DesignPattern.DataModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MongoData.DesignPattern.IDataModels\MongoData.DesignPattern.IDataModels.csproj">
+      <Project>{C13802B5-378D-4B35-B1A5-FAFB4BBA5D18}</Project>
+      <Name>MongoData.DesignPattern.IDataModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

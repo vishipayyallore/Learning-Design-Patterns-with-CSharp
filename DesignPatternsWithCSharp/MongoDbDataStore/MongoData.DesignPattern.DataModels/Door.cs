@@ -3,7 +3,7 @@
 namespace MongoData.DesignPattern.DataModels
 {
 
-    public class Doors : IEntity
+    public class Door : IEntity
     {
         #region Properties
         public int NumberOfItems { get; set; }
