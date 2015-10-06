@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using MongoData.DesignPattern.DataModels;
 using MongoData.IDataRepositories;
 
@@ -6,9 +7,6 @@ namespace MongoData.BuildVehicles.DataRepository
 {
     public class DoorRepository : IRepository<Door>
     {
-
-        public DoorRepository() {  }
-
         #region Properties
         public IEnumerable<Door> List { get; }
         #endregion
@@ -16,22 +14,22 @@ namespace MongoData.BuildVehicles.DataRepository
         #region Properties
         public void Add(Door entity)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public void Delete(Door entity)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public void Update(Door entity)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public Door FindById(int id)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
         #endregion
     }

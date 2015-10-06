@@ -13,9 +13,6 @@ namespace MongoData.DesignPattern.DataModels
         public string Name { get; set; }
         public int NumberOfItems { get; set; }
         #endregion
-
-        public Door() { }
-
     }
 
 }

@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="ConfigurationHelperTests.cs" />
+    <Compile Include="NameGeneratorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
