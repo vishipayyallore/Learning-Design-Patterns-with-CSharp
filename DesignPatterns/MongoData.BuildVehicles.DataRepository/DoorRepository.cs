@@ -1,20 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
+using System.Runtime.Serialization;
+using System.Threading.Tasks;
+using MongoData.BuildVehicles.DataStore;
 using MongoData.DesignPattern.DataModels;
 using MongoData.IDataRepositories;
+using MongoDB.Bson;
+using MongoDB.Driver;
 
 namespace MongoData.BuildVehicles.DataRepository
 {
     public class DoorRepository : IRepository<Door>
     {
+
+        private readonly BuildVehiclesContext _buildVehiclesContext;
+
+        public DoorRepository()
+        {
+            _buildVehiclesContext = new BuildVehiclesContext();
+        }
+
         #region Properties
         public IEnumerable<Door> List { get; }
         #endregion
 
         #region Properties
-        public void Add(Door entity)
+        public async Task<HttpStatusCode> Add(Door entity)
         {
-            throw new NotImplementedException();
+            await _buildVehiclesContext.Doors.InsertOneAsync(entity);
+            return HttpStatusCode.Accepted;
         }
 
         public void Delete(Door entity)
@@ -27,9 +42,9 @@ namespace MongoData.BuildVehicles.DataRepository
             throw new NotImplementedException();
         }
 
-        public Door FindById(int id)
+        public async Task<Door> FindById(string id)
         {
-            throw new NotImplementedException();
+            return await _buildVehiclesContext.Doors.Find<Door>(d => d.Id == id).FirstOrDefaultAsync();
         }
         #endregion
     }

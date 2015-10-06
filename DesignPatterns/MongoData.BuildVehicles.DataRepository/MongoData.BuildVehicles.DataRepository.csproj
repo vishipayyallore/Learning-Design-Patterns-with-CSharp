@@ -30,6 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MongoDB.Bson, Version=2.0.1.27, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MongoDB.Bson.2.0.1\lib\net45\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\packages\MongoDB.Driver.2.0.1\lib\net45\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>..\packages\MongoDB.Driver.Core.2.0.1\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +54,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MongoDbDataStore\MongoData.BuildVehicles.DataStore\MongoData.BuildVehicles.DataStore.csproj">
+      <Project>{7E45A140-DD72-4BD6-8F27-43E654F2620B}</Project>
+      <Name>MongoData.BuildVehicles.DataStore</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MongoDbDataStore\MongoData.DesignPattern.DataModels\MongoData.DesignPattern.DataModels.csproj">
       <Project>{96674F0D-55EF-4B73-B191-F86DA93E3555}</Project>
       <Name>MongoData.DesignPattern.DataModels</Name>

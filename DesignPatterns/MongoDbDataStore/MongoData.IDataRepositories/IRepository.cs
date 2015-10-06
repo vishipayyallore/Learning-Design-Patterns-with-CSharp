@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Net;
+using System.Threading.Tasks;
 using MongoData.DesignPattern.IDataModels;
 
 namespace MongoData.IDataRepositories
@@ -11,10 +13,10 @@ namespace MongoData.IDataRepositories
         #endregion
 
         #region Methods
-        void Add(T entity);
+        Task<HttpStatusCode> Add(T entity);
         void Delete(T entity);
         void Update(T entity);
-        T FindById(int id);
+        Task<T> FindById(string id);
         #endregion
     }
 
