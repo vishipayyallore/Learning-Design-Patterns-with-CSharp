@@ -21,7 +21,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{FD52D189-41A0-4BBC-9929-8E07BA541FEB}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AbstractFactory.SampleApp", "Creational\AbstractFactory\AbstractFactory.SampleApp\AbstractFactory.SampleApp.xproj", "{7F4BAF1F-861B-4EF9-86EC-2400F0E1A213}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F4BAF1F-861B-4EF9-86EC-2400F0E1A213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4BAF1F-861B-4EF9-86EC-2400F0E1A213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4BAF1F-861B-4EF9-86EC-2400F0E1A213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4BAF1F-861B-4EF9-86EC-2400F0E1A213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -31,5 +43,6 @@ Global
 		{DF02AFFE-301F-42DD-AF64-ABA89DBB390F} = {C13FE9D0-50CE-4011-A2CF-F943FB306185}
 		{FC33F620-32AA-409B-A946-CEF95EFB8077} = {C13FE9D0-50CE-4011-A2CF-F943FB306185}
 		{FD52D189-41A0-4BBC-9929-8E07BA541FEB} = {C13FE9D0-50CE-4011-A2CF-F943FB306185}
+		{7F4BAF1F-861B-4EF9-86EC-2400F0E1A213} = {3A7C12A6-4B43-4162-8811-221071C634F9}
 	EndGlobalSection
 EndGlobal
