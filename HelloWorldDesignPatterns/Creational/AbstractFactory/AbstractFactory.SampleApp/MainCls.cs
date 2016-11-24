@@ -12,6 +12,12 @@ namespace AbstractFactory.SampleApp
         {
             ForegroundColor = ConsoleColor.Cyan;
             const string dateTimeFormat = @"MM / dd / yyyy HH: mm: ss.fff";
+
+            var len = 2;
+            var d = 9;
+            WriteLine($"{(((len%9)*(d%9))%9)}");
+
+
             WriteLine("Start -> {0}\n", DateTime.Now.ToString(dateTimeFormat, CultureInfo.InvariantCulture));
 
             var africaAnimals = new AnimalWorld<AfricanAminals>();
